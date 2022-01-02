@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Route::post('add','App\Http\Controllers\HomeController@store');
-
+Route::resource('/','App\Http\Controllers\HomeController');
 Route::resource('home','App\Http\Controllers\HomeController');
 Route::get('estimation','App\Http\Controllers\EstimationController@index')->name('estimation');
 //Route::resource('compare','App\Http\Controllers\CompareController');
@@ -52,6 +52,4 @@ Route::get('/location/{id}','App\Http\Controllers\HomeController@getLocation');
 
 
 Route::resource('add-rating','App\Http\Controllers\RatingController');
-Route::get('/', function () {
-    return view('index');
-});
+
