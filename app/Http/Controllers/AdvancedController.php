@@ -94,7 +94,7 @@ return view('advanced',compact('marques'));
          $litre=$request->litre;
           
 
-$response = Http::post('https://calculateur-prix2.herokuapp.com/', [
+$response = Http::post('https://calculateur-prix.herokuapp.com/', [
   'model' => $marque,
   'brand' => $model,
   'notes' => $notes,

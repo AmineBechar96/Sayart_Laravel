@@ -88,7 +88,7 @@ class HomeController extends Controller
             //$litre=$request->litre;
             
 
-$response = Http::post('https://calculateur-prix2.herokuapp.com/light', [
+$response = Http::post('https://calculateur-prix.herokuapp.com/light', [
     'model' => $marque,
     'brand' => $model,
     'notes' => $notes,

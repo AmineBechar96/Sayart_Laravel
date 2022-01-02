@@ -20,7 +20,6 @@ class Stati1Controller extends Controller
      */
     public function index()
     {
-        if(Auth::user()->hasVerifiedEmail()){
         $count=voiture::all()->count();
         $bestmodels = voiture::select('model', \DB::raw('count(*) as best'), )
         ->groupBy('model')
@@ -155,10 +154,8 @@ foreach($bestmodels as $model){
 
            $data5['chart_data5'] = json_encode($data5);
 return view('best',compact('data','data2','data3','data4','data5','datatable','mod1','mod2','mod3','mod4','mod5','mod6'));
-        }
-        else{
-            return redirect('email/verify');
-        }
+        
+        
     }
 
     /**

@@ -22,7 +22,6 @@ class Stati2Controller extends Controller
     public function index()
 
     {
-        if(Auth::user()->hasVerifiedEmail()){
         $count=voiture::all()->count();
 $ch_stat=voiture::select(\DB::raw('(CASE WHEN ch BETWEEN 0 AND 60 THEN "0-60"
 WHEN ch BETWEEN 61 AND 90 THEN "61-90"
@@ -114,10 +113,7 @@ $data7['data'][] =  round(($model->best*100)/$count);
  $data7['chart_data7'] = json_encode($data7);
 
         return view('features',compact('data','data2','data3','data4','data5','data6','data7'));
-    }
-    else{
-        return redirect('email/verify');
-    }
+    
     }
 
     /**

@@ -21,7 +21,6 @@ class Stati3Controller extends Controller
      */
     public function index()
     {
-        if(Auth::user()->hasVerifiedEmail()){
  $date = voiture::select('adDate', \DB::raw('count(adDate) as best'), )
  ->groupBy('adDate')
  ->orderBy('best','desc')
@@ -76,7 +75,6 @@ $data6['data'][] = $model->prix;
          }
  $data6['chart_data6'] = json_encode($data6);
  $goal_monthly_sales = voiture::select('adDate' ,\DB::raw('count(*) as total'))
- ->where(\DB::raw('MONTH(adDate)'),'=', 4)
  ->paginate(6);
 $goal=50000;
 //
@@ -123,10 +121,7 @@ $data9['data'][] = $model->total;
  /*$taux=$total*100/$goal;*/
  //return $peugeotSales;
      return view('market',compact('data2','data3','data4','data5','data6','data7','goal','data8','data9'));
-    }
-    else{
-        return redirect('email/verify');
-    }
+    
     }
 
     /**

@@ -8,6 +8,8 @@ use App\Models\Car;
 use App\Models\car_model;
 use App\Models\voiture;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Http;
+
 class StateController extends Controller
 {
     /**
@@ -44,7 +46,7 @@ class StateController extends Controller
      */
     public function store(Request $request)
     {
-        $validatedData = $request->validate([
+       /* $validatedData = $request->validate([
             'brands' => 'required',
             'model' => 'required', 
             'serie' => 'required',
@@ -52,14 +54,12 @@ class StateController extends Controller
             'energie' => 'required',
             'kilomitrage' => 'required', 
             'trans' => 'required',
-          
             'prix' => 'required',
-            
-            'couleur' => 'required',
+            'location' => 'required',
             
         ],
     [
-        'brands.required' => 'Vous devez choisir une marque',
+            'brands.required' => 'Vous devez choisir une marque',
             'model.required' => 'Vous devez choisir un model', 
             'serie.required' => 'Vous devez choisir la serie',
             'matricule.required' => 'Vous devez choisir une année', 
@@ -67,22 +67,42 @@ class StateController extends Controller
             'kilomitrage.required' => 'Vous devez entrer le kilomitrage', 
             'trans.required' => 'Vous devez choisir le type de transmission',
             'prix.required' => 'Vous devez entrer le prix de vehicule', 
-            'trans.couleur' => 'Vous devez choisir la couleur',
+            'locarion.required' => 'Vous devez choisir la location',
             
-    ]);
+    ]);*/
           $marque=$request->brands; 
           $model=$request->model;
           $notes=$request->serie;
           $proDate=(int)$request->matricule;
-          $couleur=$request->couleur;
+          $location=$request->location;
           $energie=$request->energie;
           $kilometrage=$request->kilomitrage;
           $transmission=$request->trans;
-          $prix=$request->prix;
-          $kilometrage=$request->kilomitrage;
+          $prix=(int)$request->prix;
           //hna lazem dir requete lirah tb3athha fiplacet taux twali la valeur liradhalak lalgo
-          $taux=38;
-          return view('state',compact('marque','model','notes','proDate','couleur','energie','kilometrage','transmission','prix','taux'));
+          $real_price= Http::post('https://calculateur-prix.herokuapp.com/light', [
+            
+            'model' => $marque,
+            'brand' => $model,
+            'notes' => $notes,
+            'proDate' => $proDate,
+            'energie'=> $energie,
+            'location' =>$location,
+            'transmission' => $transmission,
+            'kilometrage' => $kilometrage,
+           
+        ])->throw()->json();
+
+        $re_price=round($real_price);
+      
+        $taux=Http::post('https://calculateur-prix.herokuapp.com/accidenter', [
+            'annee' => $proDate,
+            'prix_model' => $re_price,
+            'prix_utilisateur' =>$prix,
+           
+        ])->throw()->json();
+
+          return view('state',compact('marque','model','notes','proDate','location','energie','kilometrage','transmission','prix','taux'));
 
     }
 
