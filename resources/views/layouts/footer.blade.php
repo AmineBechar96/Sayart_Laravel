@@ -6,12 +6,11 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-info">
-                        <h3>Dzautotrader</h3>
+                        <h3>Sayarti</h3>
                         <p>
-                            A108 Adam Street <br>
-                            NY 535022, USA<br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            Sour El Ghozlane, Bouira, Algerie<br><br>
+                            <strong>Phone:</strong> +213 54 22 37 618<br>
+                            <strong>Email:</strong> innogate.tech@gmail.com<br>
                         </p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -27,36 +26,34 @@
                     <h4>Liens utiles
                     </h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Estimer Valeur</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Verifier l'Etat</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Recherche Avancé</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Statistique</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Suivez le Marché</a></li>
-
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('home')}}">Accueil</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('advanced')}}">Estimation du Cout</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('check')}}">Vérifier de l'Etat de voiture</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('best')}}">Dernières Stats</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('news')}}">Suivez le Marché</a></li>
+                        
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('budget')}}">Recherche Budget</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Notre Services</h4>
+                    <h4>Nos Services</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Location de voitures</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Mécanique Générale</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Pièces Détachés</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Depannage & Transport</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Points de Ventes</a>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('general-mechanic')}}">Mécanique Générale</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('detached-pieces-stores')}}">Pièces Détachés</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Dépannage & Transport</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('sell-points')}}">Points de Ventes</a>
                         </li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marchés Hebdomadaires</a>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{url('weekly-markets')}}">Marchés Hebdomadaires</a>
                         </li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">News</a></li>
+                     
                     </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Inscrivez-vous pour recevoir des nouvelles sur l'annonce de nouveaux produits, les cadeaux, les
-                        promotions spéciales, les ventes et plus encore
+                    <h4>Newsletter</h4>
+                    <p>Inscrivez-vous pour recevoir des nouvelles sur les annonces, l'actualité du marché, dérnieres statistique, et les mises à jour des services automobiles . 
                     </p>
                     <form action="" method="post">
                         <input type="email" name="email"><input type="submit" value="Subscribe">
@@ -70,7 +67,7 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong><span>sayarti</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Sayarti</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->

@@ -24,15 +24,24 @@
                             data-i18n="Dashboard">Accueil</span></a>
 
                 </li>
+                <li><a class="nav-link" href="{{url('news')}}">
+                    <i class="feather icon-paperclip"></i><span data-i18n="Others">Actualité</span></a>
+
+                </li>
                 <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
-                        data-toggle="dropdown"><i class="feather icon-box"></i><span data-i18n="Apps">Valeur</span></a>
+                        data-toggle="dropdown"><i class="feather icon-box"></i><span data-i18n="Apps">Recherche Voiture</span></a>
                     <ul class="dropdown-menu">
-                        <li data-menu=""><a class="dropdown-item" href="{{url('home')}}" data-toggle="dropdown"
-                                data-i18n="Email"><i class="feather icon-search"></i>Estimation</a>
-                        </li>
                         <li data-menu=""><a class="dropdown-item" href="{{url('advanced')}}" data-toggle="dropdown"
-                                data-i18n="Chat"><i class="feather icon-slack"></i>Estimation Avancée</a>
+                                data-i18n="Chat"><i class="feather icon-slack"></i>Estimation du Prix</a>
                         </li>
+                        <li data-menu=""><a class="dropdown-item" href="{{url('budget')}}" data-toggle="dropdown"
+                                data-i18n="Data List"><i class="feather icon-dollar-sign"></i>Recherche selon Budget</a>
+                        </li>
+                        <li data-menu="dropdown-item"><a class="dropdown-item " href="{{url('check')}}"
+                                data-toggle="dropdown" data-i18n="Form Elements"><i
+                                    class="feather icon-activity"></i>Verfication de l'Etat</a>
+                        </li>
+
                         <!--li data-menu=""><a class="dropdown-item" href="app-todo.html" data-toggle="dropdown"
                                 data-i18n="Todo"><i class="feather icon-check-square"></i>Todo</a>
                         </li>
@@ -83,13 +92,29 @@
                     </ul>
                 </li>
                 <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
+                        data-toggle="dropdown"><i class="feather icon-package"></i><span
+                            data-i18n="Charts &amp; Maps">Service Automobile</span></a>
+                    <ul class="dropdown-menu">
+                        <li data-menu="dropdown-submenu"><a class="dropdown-item" href="{{url('general-mechanic')}}"
+                                data-toggle="dropdown" data-i18n="Charts"><i
+                                    class="feather icon-settings"></i>Mécaniciens</a>
+
+                        </li>
+                        <li data-menu=""><a class="dropdown-item" href="{{url('detached-pieces-stores')}}"
+                                data-toggle="dropdown" data-i18n="Google Maps"><i class="feather icon-link"></i>Pièces
+                                Détachées</a>
+                        </li>
+
+                    </ul>
+                </li>
+               <!-- <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
                         data-toggle="dropdown"><i class="feather icon-shopping-cart"></i><span
                             data-i18n="UI Elements">Vendre
                         </span></a>
                     <ul class="dropdown-menu">
                         <li data-menu=""><a class="dropdown-item" href="{{url('budget')}}" data-toggle="dropdown"
                                 data-i18n="Data List"><i class="feather icon-dollar-sign"></i>Recherche Budget</a>
-                            <!--ul class="dropdown-menu">
+                            ul class="dropdown-menu">
                                 <li data-menu=""><a class="dropdown-item" href="data-list-view.html"
                                         data-toggle="dropdown" data-i18n="List View"><i
                                             class="feather icon-circle"></i>List View</a>
@@ -99,7 +124,7 @@
                                             class="feather icon-circle"></i>Thumb View</a>
                                 </li>
                             </ul-->
-                        </li>
+                        
                         <!--li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"><a
                                 class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"
                                 data-i18n="Content"><i class="feather icon-layout"></i>Content</a>
@@ -332,17 +357,15 @@
                                 </li>
                             </ul>
                         </li-->
-                    </ul>
+                 <!--   </ul>
                 </li>
                 <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
                         data-toggle="dropdown"><i class="feather icon-layers"></i><span
                             data-i18n="Forms &amp; Tables">Verfier Etat
                         </span></a>
                     <ul class="dropdown-menu">
-                        <li data-menu="dropdown-submenu"><a class="dropdown-item " href="{{url('check')}}"
-                                data-toggle="dropdown" data-i18n="Form Elements"><i
-                                    class="feather icon-activity"></i>Verfication</a>
-                            <!--ul class="dropdown-menu">
+
+                            ul class="dropdown-menu">
                                 <li data-menu=""><a class="dropdown-item" href="form-select.html" data-toggle="dropdown"
                                         data-i18n="Select"><i class="feather icon-circle"></i>Select</a>
                                 </li>
@@ -394,9 +417,9 @@
                         </li>
                         <li data-menu=""><a class="dropdown-item" href="table-ag-grid.html" data-toggle="dropdown"
                                 data-i18n="agGrid Table"><i class="feather icon-grid"></i>agGrid Table</a>
-                        </li-->
+                        </li
                     </ul>
-                </li>
+                </li>-->
                 <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
                         data-toggle="dropdown"><i class="feather icon-shopping-bag"></i><span data-i18n="Pages">Marchés
                         </span></a>
@@ -477,7 +500,7 @@
                 </li>
                 <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
                         data-toggle="dropdown"><i class="feather icon-bar-chart-2"></i><span
-                            data-i18n="Charts &amp; Maps">Charts &amp; Satistique</span></a>
+                            data-i18n="Charts &amp; Maps">Statistique</span></a>
                     <ul class="dropdown-menu">
                         <li data-menu="dropdown-submenu"><a class="dropdown-item" href="{{url('features')}}"
                                 data-toggle="dropdown" data-i18n="Charts"><i
@@ -492,26 +515,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
-                        data-toggle="dropdown"><i class="feather icon-package"></i><span
-                            data-i18n="Charts &amp; Maps">Autres</span></a>
-                    <ul class="dropdown-menu">
-                        <li data-menu="dropdown-submenu"><a class="dropdown-item" href="{{url('general-mechanic')}}"
-                                data-toggle="dropdown" data-i18n="Charts"><i
-                                    class="feather icon-settings"></i>Mechaniciens</a>
-
-                        </li>
-                        <li data-menu=""><a class="dropdown-item" href="{{url('detached-pieces-stores')}}"
-                                data-toggle="dropdown" data-i18n="Google Maps"><i class="feather icon-link"></i>Pièces
-                                Détachées</a>
-                        </li>
-
-                    </ul>
-                </li>
-                <li data-menu="dropdown"><a class="nav-link" href="{{url('news')}}"><i
-                            class="feather icon-paper-clip"></i><span data-i18n="Others">News</span></a>
-
-                </li>
+                
+                
             </ul>
         </div>
     </div>
