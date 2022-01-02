@@ -26,9 +26,15 @@
             <div class="content-header row">
             </div>
             <div class="content-body">
+                <div class="row">
+                  <div class="col-12">
+                    <p>Ceci un Aperçu de L'Etat de Marché de Voiture En Algérie </p>
+                  </div>
+                </div>
 
                 <!-- line chart section start -->
                 <section id="chartjs-charts">
+
 
 
                     <div class="row">
@@ -43,16 +49,16 @@
                                     <div class="card-body pb-0">
                                         <div class="d-flex justify-content-start">
                                             <div class="mr-2">
-                                                <p class="mb-50 text-bold-600">This Month</p>
+                                                <p class="mb-50 text-bold-600">Ce Mois</p>
                                                 <h2 class="text-bold-400">
-                                                    <sup class="font-medium-1">$</sup>
-                                                    <span class="text-success">{{$data6['data'][1]}}</span>
+                                                    <sup class="font-medium-1">DZD</sup>
+                                                    <span class="text-success">{{$data6['data'][0]}}</span>
                                                 </h2>
                                             </div>
                                             <div>
-                                                <p class="mb-50 text-bold-600">Last Month</p>
+                                                <p class="mb-50 text-bold-600">Dernièr Mois</p>
                                                 <h2 class="text-bold-400">
-                                                    <sup class="font-medium-1">$</sup>
+                                                    <sup class="font-medium-1">DZD</sup>
                                                     <span>{{$data6['data'][0]}}</span>
                                                 </h2>
                                             </div>
@@ -66,7 +72,7 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="card">
                                 <div class="card-header d-flex justify-content-between align-items-end">
-                                    <h4 class="mb-0">Goal Overview</h4>
+                                    <h4 class="mb-0">Pct Voiture Vendue en Décembre</h4>
                                     <p class="font-medium-5 mb-0"><i
                                             class="feather icon-help-circle text-muted cursor-pointer"></i></p>
                                 </div>
@@ -76,11 +82,11 @@
                                         <div class="row text-center mx-0">
                                             <div
                                                 class="col-6 border-top border-right d-flex align-items-between flex-column py-1">
-                                                <p class="mb-50">Completed</p>
+                                                <p class="mb-50">Vendue</p>
                                                 <p class="font-large-1 text-bold-700">{{$data7['data'][0]}}</p>
                                             </div>
                                             <div class="col-6 border-top d-flex align-items-between flex-column py-1">
-                                                <p class="mb-50">In Progress</p>
+                                                <p class="mb-50">En Progrès</p>
                                                 <p class="font-large-1 text-bold-700">
                                                     {{$data7['goal'][0]-$data7['data'][0]}}</p>
                                             </div>
@@ -96,7 +102,7 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title">Moyenne des Prix Vendus</h4>
+                                    <h4 class="card-title">Moyenne des Prix des Voitures Vendues</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
@@ -111,7 +117,7 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title">Scatter Chart</h4>
+                                    <h4 class="card-title">Meilleur Marché Pour Renault et Peugeot</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">

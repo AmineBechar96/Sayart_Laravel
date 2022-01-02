@@ -30,8 +30,7 @@
       <div class="content-body">
         <div class="row">
           <div class="col-12">
-            <p>You can easily create reuseable chart components. Read full documnetation <a
-                href="https://www.chartjs.org/docs/latest/getting-started/" target="_blank">here</a></p>
+            <p>Ceci un Aperçu des Meilleurs Brand et Modéle de Voiture Vendu En Algérie </p>
           </div>
         </div>
         <!-- line chart section start -->
@@ -41,7 +40,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Les marques les plus populaires en Algerie</h4>
+                  <h4 class="card-title">Les Marques Les Plus Populaires en Algerie</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body pl-0">
@@ -55,7 +54,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Les marques les plus chers en Algerie</h4>
+                  <h4 class="card-title">Les Marques les Plus Chers en Algerie</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body pl-0">
@@ -78,7 +77,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Les modèles les plus populaires en Algerie</h4>
+                  <h4 class="card-title">Les Modèles les Plus Populaires en Algerie</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
@@ -91,7 +90,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Les modèles les plus chers en Algerie</h4>
+                  <h4 class="card-title">Les Modèles les Plus Chers en Algerie</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
@@ -111,7 +110,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header ">
-                <h4 class="card-title ">Les Meilleurs voitures pour chaque marque en Algérie
+                <h4 class="card-title ">Les Meilleurs Voitures pour Chaque Marque en Algérie
                 </h4>
               </div>
               <div class="card-content">
@@ -162,7 +161,7 @@
             <div class="col-lg-8 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Les wilayas les plus Actifs dans le marché</h4>
+                  <h4 class="card-title">Les Wilayas les Plus Actifs Dans le Marché</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">

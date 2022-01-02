@@ -35,7 +35,7 @@
                         <div class="col-10">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title text-center">Recherche Avanceé</h4>
+                                    <h4 class="card-title text-center">Estimation du Prix Avancée</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
@@ -158,8 +158,8 @@
                                                             <select class="form-control" id="basicSelect"
                                                                 name="energie">
                                                                 <option value="Essence">Essence</option>
-                                                                <option value="Diezel">Diezel</option>
-                                                                <option value="Gpl">Gpl</option>
+                                                                <option value="Diezel">Diesel</option>
+                                                                <option value="Gpl">GPL</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -185,7 +185,7 @@
 
                                                             <input type="text" id="first-name-vertical"
                                                                 class="form-control" name="kilomitrage"
-                                                                placeholder="kilomitrage">
+                                                                placeholder="Eg: 150 mille" maxlength="3">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-3 col-12">
@@ -216,7 +216,7 @@
                                                         <div class="form-label-group">
 
                                                             <select class="form-control" id="basicSelect" name="litre">
-                                                                <option value="" disabled selected>moteur
+                                                                <option value="" disabled selected>Moteur
                                                                 </option>
 
                                                             </select>

@@ -32,7 +32,7 @@
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h4 class="modal-title" id="myModalLabel17">Fiche technique de la voiture
+                                <h4 class="modal-title" id="myModalLabel17">Fiche Technique de la Voiture
                                 </h4>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -106,7 +106,7 @@
                             <div class="card-header">
                                 <h4 class="card-title">
                                     <i class="ri-list-check-2"></i>
-                                    Voitures disponibles avec le prix estimé</h4>
+                                    Meilleurs Voitures Disponibles avec Leurs Prix Estimés</h4>
                             </div>
                             <div class="card-content">
                                 <div class="card-body">
@@ -115,6 +115,7 @@
                                         <table class="table table-hover-animation table-striped mb-0">
                                             <thead>
                                                 <tr>
+                                                    <th scope="col"></th>
                                                     <th scope="col"></th>
                                                     <th scope="col">Model</th>
                                                     <th scope="col">Brand</th>
@@ -137,6 +138,7 @@
 
 
                                                     <th scope="row"></th>
+                                                    <td>{{ $loop->iteration }}</td>
                                                     <td>{{$aff_Vehicule->model}}</td>
                                                     <td style="color:#1CA7EC">{{$aff_Vehicule->brand}}</td>
                                                     <td>{{$aff_Vehicule->notes}}</td>

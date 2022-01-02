@@ -33,13 +33,12 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title"> <i class="ri-information-line"></i> Choisis Votre Vehicule
-                                        désiré</h4>
+                                    <h4 class="card-title"> <i class="ri-information-line"></i>Veuillez Choisir Votre Vehicule Désiré</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <p>Suivi les étapes suivantes en remplissant les <code>informations</code>
-                                            requises.
+                                        <p>Suivez les Etapes Suivantes en Remplissant les <code>Informations</code>
+                                            Requises.
                                         </p>
                                         @if ($errors->any())
 
@@ -96,6 +95,7 @@
                                                             <select class="form-control" id="basicSelect" name="serie">
                                                                 <option value="" disabled selected>Serie
                                                                 </option>
+
                                                             </select>
                                                         </div>
                                                     </div>
@@ -124,6 +124,23 @@
                                                                 <option value="2007">2007</option>
                                                                 <option value="2006">2006</option>
                                                                 <option value="2005">2005</option>
+
+                                                                <option value="2004">2004</option>
+                                                                <option value="2003">2003</option>
+                                                                <option value="2002">2002</option>
+                                                                <option value="2001">2001</option>
+                                                                <option value="2000">2000</option>
+                                                                <option value="1999">1999</option>
+
+                                                                <option value="1998">1998</option>
+                                                                <option value="1997">1997</option>
+                                                                <option value="1996">1996</option>
+                                                                <option value="1995">1995</option>
+                                                                <option value="1994">1994</option>
+                                                                <option value="1993">1993</option>
+                                                                <option value="1992">1992</option>
+                                                                <option value="1991">1991</option>
+                                                                <option value="1990">1990</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -136,18 +153,66 @@
                                                 <div class="row">
                                                     <div class="col-sm-6">
                                                         <div class="form-group">
-                                                            <label for="firstName1">Couleur</label>
+                                                            <label for="firstName1">Location</label>
                                                             <select class="form-control" id="basicSelect"
-                                                                name="couleur">
-                                                                <option value="Blanc">Blanc</option>
-                                                                <option value="Noir">Noir</option>
-                                                                <option value="Blue ciel">Blue ciel</option>
-                                                                <option value="Blue">Blue</option>
-                                                                <option value="Gris">Gris</option>
-                                                                <option value="Gris souris">Gris souris</option>
-
-
-                                                            </select>
+                                                                name="location">
+                                                                <option value="Oran">Oran</option>
+                                                                        <option value="Alger">Alger</option>
+                                                                        <option value="Chlef">Chlef</option>
+                                                                        <option value="Mascara">Mascara</option>
+                                                                        <option value="Bejaia">Bejaia</option>
+                                                                        <option value="Relizane">Relizane</option>
+                                                                        <option value="SidiBelAbbes">SidiBelAbbes
+                                                                        </option>
+                                                                        <option value="Naama">Naama</option>
+                                                                        <option value="SoukAhras">SoukAhras</option>
+                                                                        <option value="Ouargla">Ouargla</option>
+                                                                        <option value="Constantine">Constantine</option>
+                                                                        <option value="AinDefla">AinDefla</option>
+                                                                        <option value="Tipaza">Tipaza</option>
+                                                                        <option value="Medea">Medea</option>
+                                                                        <option value="Adrar">Adrar</option>
+                                                                        <option value="Batna">Batna</option>
+                                                                        <option value="Mostaganem">Mostaganem</option>
+                                                                        <option value="Blida">Blida</option>
+                                                                        <option value="Setif">Setif</option>
+                                                                        <option value="Skikda">Skikda</option>
+                                                                        <option value="Ghardaia">Ghardaia</option>
+                                                                        <option value="Boumerdes">Boumerdes</option>
+                                                                        <option value="OumElBouaghi">OumElBouaghi
+                                                                        </option>
+                                                                        <option value="Tebessa">Tebessa</option>
+                                                                        <option value="Bouira">Bouira</option>
+                                                                        <option value="Biskra">Biskra</option>
+                                                                        <option value="TiziOuzou">TiziOuzou</option>
+                                                                        <option value="Djelfa">Djelfa</option>
+                                                                        <option value="BordjBouArreridj">
+                                                                            BordjBouArreridj</option>
+                                                                        <option value="ElOued">ElOued</option>
+                                                                        <option value="Guelma">Guelma</option>
+                                                                        <option value="Khenchela">Khenchela</option>
+                                                                        <option value="ElBayadh">ElBayadh</option>
+                                                                        <option value="Tlemcen">Tlemcen</option>
+                                                                        <option value="Jijel">Jijel</option>
+                                                                        <option value="Tissemsilt">Tissemsilt</option>
+                                                                        <option value="Tiaret">Tiaret</option>
+                                                                        <option value="Msila">Msila</option>
+                                                                        <option value="Saida">Saida</option>
+                                                                        <option value="Laghouat">Laghouat
+                                                                        </option>
+                                                                        <option value="Bechar">Bechar</option>
+                                                                        <option value="ElTaref">ElTaref</option>
+                                                                        <option value="Annaba">Annaba</option>
+                                                                        <option value="AinTemouchent">AinTemouchent
+                                                                        </option>
+                                                                        <option value="Illizi">Illizi</option>
+                                                                        <option value="Tindouf">Tindouf</option>
+                                                                        <option value="Tamanrasset">Tamanrasset</option>
+                                                                        <option value="Saida">Saida</option>
+                                                                        <option value="Laghouat">Laghouat
+                                                                        </option>
+                                                                        <option value="Bechar">Bechar</option>
+                                                                    </select>
                                                         </div>
                                                     </div>
 
@@ -157,8 +222,8 @@
                                                             <select class="form-control" id="basicSelect"
                                                                 name="energie">
                                                                 <option value="Essence">Essence</option>
-                                                                <option value="Diezel">Diezel</option>
-                                                                <option value="Gpl">Gpl</option>
+                                                                <option value="Diezel">Diesel</option>
+                                                                <option value="Gpl">GPL</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -181,7 +246,7 @@
                                                             <label for="lastName1">Kilomitrage</label>
                                                             <input type="text" id="first-name-vertical"
                                                                 class="form-control" name="kilomitrage"
-                                                                placeholder="kilomitrage">
+                                                                placeholder="Eg 150 mille" maxlength="3">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -196,7 +261,7 @@
                                                         <div class="form-group">
                                                             <p for="eventName1" class="text-center">Prix</p>
                                                             <input type="text" class="form-control" id="eventName1"
-                                                                placeholder="Entrer Le Prix" name="prix">
+                                                                placeholder="Entrer Le Prix Eg :250 Millions Centime" maxlength="3" name="prix">
                                                         </div>
 
                                                     </div>

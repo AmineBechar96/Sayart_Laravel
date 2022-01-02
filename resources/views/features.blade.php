@@ -26,6 +26,11 @@
       <div class="content-header row">
       </div>
       <div class="content-body">
+        <div class="row">
+          <div class="col-12">
+            <p>Ceci un Aperçu des Meilleurs Caractéristiques de Voiture Vendue En Algérie </p>
+          </div>
+        </div>
 
         <!-- line chart section start -->
         <section id="chartjs-charts">
@@ -34,7 +39,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Nombre de chevaux des voitures les plus vendus en Algérie
+                  <h4 class="card-title">Nombre de Chevaux des Voitures les Plus Vendus en Algérie
                   </h4>
                 </div>
                 <div class="card-content">
@@ -47,7 +52,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Les meilleurs couleurs vendus en Algérie</h4>
+                  <h4 class="card-title">Les Meilleurs Couleurs Vendus en Algérie</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body pl-0">
@@ -67,7 +72,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Energie des voitures les plus Actifs</h4>
+                  <h4 class="card-title">Energie des Voitures les Plus Actifs</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
@@ -81,7 +86,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Type de voitures</h4>
+                  <h4 class="card-title">Type de Voitures</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
@@ -98,7 +103,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Taille du moteur (Litre)</h4>
+                  <h4 class="card-title">Taille du Moteur (Litre)</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
@@ -110,7 +115,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h4 class="card-title">Type de moteur</h4>
+                  <h4 class="card-title">Type de Moteur</h4>
                 </div>
                 <div class="card-content">
                   <div class="card-body">
@@ -129,7 +134,7 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <h4 class="card-title">Les années des voitures les plus vendus</h4>
+              <h4 class="card-title">Les Années des Voitures les Plus Vendus</h4>
             </div>
             <div class="card-content">
               <div class="card-body">

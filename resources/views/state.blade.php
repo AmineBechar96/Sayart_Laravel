@@ -48,42 +48,47 @@
                                     <div class="card-body pt-0">
                                         <div class="row" style="margin-top:15px;">
 
-                                            @if ($taux >= 90)
-                                            <div class="alert alert-success" role="alert">
-                                                <h4 class="alert-heading">Success</h4>
+                                            @if ($taux >= 120)
+                                            <div class="alert alert-warning" role="alert">
+                                                <h1 class="alert-heading">Mauvais Prix</h1>
                                                 <p class="mb-0">
-                                                    Tootsie roll lollipop lollipop icing. Wafer cookie danish
-                                                    macaroon. Liquorice fruitcake apple pie I love cupcake cupcake.
+                                                    Voiture Est Dans Un Excellent Etat, Mais le Problème le <b>Prix est Trop Elevé</b>, Essayer de Négocier Avec le Vendeur pour Baisser Le Prix Si Vous Etes Un Acheteur Ou Essayer de Trouver Une Autre Voiture.
                                                 </p>
                                             </div>
                                             @else
-                                            @if ($taux >= 70)
+                                            @if ($taux >= 90)
                                             <div class="alert alert-primary" role="alert">
-                                                <h4 class="alert-heading">Primary</h4>
+                                                <h4 class="alert-heading">Excellent Etat</h4>
                                                 <p class="mb-0">
-                                                    Tootsie roll lollipop lollipop icing. Wafer cookie danish
-                                                    macaroon. Liquorice fruitcake apple pie I love cupcake cupcake.
+                                                    Voiture Dans Un Excellent Etat Avec Un Prix Logique, On vous <b>Conseille Fortement</b> D'Acheter Cette Voiture.
+                                                </p>
+                                            </div>
+                                            @else
+                                            @if ($taux >= 80)
+                                            <div class="alert alert-primary" role="alert">
+                                                <h4 class="alert-heading">Bon Etat</h4>
+                                                <p class="mb-0">
+                                                    Cette Voiture est Dans Un Bon Etat, Soit Elle a des Petits Problèmes (Peinture, Porte Frappé) Ou Elle a des petits souci Dans le Moteur. On vous <b>Conseille</b> D'Acheter Cette Voiture Mais <b>Vous Devez Etre Vigilent</b>.
                                                 </p>
                                             </div>
                                             @else
                                             @if ($taux >= 50)
                                             <div class="alert alert-warning" role="alert">
-                                                <h4 class="alert-heading">Warning</h4>
+                                                <h4 class="alert-heading">Mauvais Etat</h4>
                                                 <p class="mb-0">
-                                                    Tootsie roll lollipop lollipop icing. Wafer cookie danish
-                                                    macaroon. Liquorice fruitcake apple pie I love cupcake cupcake.
+                                                    Cette Voiture est Dans Un Mauvais Etat, Soit Elle est Accidenter ou Elle à des Problèmes Invisible. On vous <b>Déconseille</b> D'Acheter Cette Voiture
                                                 </p>
                                             </div>
                                             @else
 
                                             <div class="alert alert-danger" role="alert">
-                                                <h4 class="alert-heading"> Danger
+                                                <h4 class="alert-heading"> Etat Catastrophique
                                                 </h4>
                                                 <p class="mb-0">
-                                                    Tootsie roll lollipop lollipop icing. Wafer cookie danish
-                                                    macaroon. Liquorice fruitcake apple pie I love cupcake cupcake.
+                                                    Cette Voiture est Dans Un Trés Mauvais Etat, Soit Elle est Accidenter ou Elle à des Problèmes Sérieux Dans Le Moteur. On Vous<b> Déconseille Fortment</b> D'A'cheter Cette Voiture
                                                 </p>
                                             </div>
+                                            @endif
                                             @endif
                                             @endif
                                             @endif
