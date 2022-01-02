@@ -43,8 +43,7 @@
 
                                     <h4 class="text-center">
                                         Rechercher
-                                        Votre voiture de
-                                        rève</h4>
+                                        Prix de Votre voiture</h4>
 
                                 </div>
                                 <div class="card-content">
@@ -85,7 +84,7 @@
                                                                     </select>
                                                                 </div>
                                                                 <div class="col">
-                                                                    <label for="first-name-icon">Matricule</label>
+                                                                    <label for="first-name-icon">Année</label>
                                                                     <select class="form-control" id="basicSelect"
                                                                         name="matricule">
                                                                         <option value="2021">2021</option>
@@ -107,6 +106,26 @@
                                                                         <option value="2007">2007</option>
                                                                         <option value="2006">2006</option>
                                                                         <option value="2005">2005</option>
+
+
+                                                                    
+                                                                        <option value="2004">2004</option>
+                                                                        <option value="2003">2003</option>
+                                                                        <option value="2002">2002</option>
+                                                                        <option value="2001">2001</option>
+                                                                        <option value="2000">2000</option>
+                                                                        <option value="1999">1999</option>
+
+                                                                        <option value="1998">1998</option>
+                                                                        <option value="1997">1997</option>
+                                                                        <option value="1996">1996</option>
+                                                                        <option value="1995">1995</option>
+                                                                        <option value="1994">1994</option>
+                                                                        <option value="1993">1993</option>
+                                                                        <option value="1992">1992</option>
+                                                                        <option value="1991">1991</option>
+                                                                        <option value="1990">1990</option>
+                                                                        
                                                                     </select>
 
 
@@ -158,8 +177,8 @@
                                                                     <select class="form-control" id="basicSelect"
                                                                         name="energie">
                                                                         <option value="Essence">Essence</option>
-                                                                        <option value="Diezel">Diezel</option>
-                                                                        <option value="Gpl">Gpl</option>
+                                                                        <option value="Diezel">Diesel</option>
+                                                                        <option value="Gpl">GPL</option>
                                                                     </select>
 
 
@@ -189,7 +208,7 @@
                                                                     <label for=" first-name-icon">Kilomitrage</label>
                                                                     <input type="text" id="first-name-vertical"
                                                                         class="form-control" name="kilomitrage"
-                                                                        placeholder="ex: 150 mille ">
+                                                                        placeholder="ex: 150 mille " maxlength="3">
                                                                 </div>
                                                                 <div class="col">
                                                                     <label for="first-name-icon">Location</label>
@@ -304,8 +323,9 @@
                 <section id="why-uss" class="why-us">
                     <div class="section-title" id="tit">
 
-                        <h2>Achetez intelligemment - étape par étape</h2>
-                        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+                        <h2>Evaluez Intelligemment une Voiture</h2>
+                        <p>Notre Plateforme vous Permet l'Accés au Plusieurs Tàche Afin de Faciliter <b>l'Achat ou la Vente </b></p>
+                        <p>de votre Voiture</p>
                     </div>
                     <div class="container">
 
@@ -313,34 +333,31 @@
 
                             <div class="col-lg-4" data-aos="fade-up">
                                 <div class="box" id="boxx">
-                                    <h4 class="text-center">Choisis Votre Voiture</h4>
+                                    <h4 class="text-center">Estimation du Prix</h4>
                                     <span class="text-center"><i class="feather icon-target"></i></span>
 
-                                    <p class="text-center">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
-                                        consectetur ducimus
-                                        vero placeat</p>
+                                    <p class="text-center">Estimez le Prix Logique de Votre Voiture, (ou de celle que vous Voulez Acheter). On Utilise un <b>Modèle de l'Intelligence Artificielle</b> pour vous Aider  à Trouver le Prix Idéal de votre Voiture</p>
+                                     <a href="{{url('advanced')}}" class="stretched-link"></a>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
                                 <div class="box" id="boxx">
-                                    <h4 class="text-center">Valuer Votre Voiture</h4>
+                                    <h4 class="text-center">Recherche Budget</h4>
                                     <span class="text-center"><i class="feather icon-dollar-sign"></i></span>
 
-                                    <p class="text-center">Dolorem est fugiat occaecati voluptate velit esse. Dicta
-                                        veritatis dolor quod et
-                                        vel dire leno para dest</p>
+                                    <p class="text-center">Trouvez les Meilleurs Voitures Avec leur Prix Logique qui <b>Correspond à votre Budget  </b> .Cette Tàche Utilise un Filtre Optimisé Afin de vous Aider à Trouver votre Voiture de Rève.</p>
+                                    <a href="{{url('budget')}}" class="stretched-link"></a>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                                 <div class="box" id="boxx">
-                                    <h4 class="text-center"> Faites Les bons choix</h4>
+                                    <h4 class="text-center"> Conseille d'Achat</h4>
                                     <span class="text-center"><i class="feather icon-award"></i></span>
 
-                                    <p class="text-center">Molestiae officiis omnis illo asperiores. Aut doloribus vitae
-                                        sunt debitis quo
-                                        vel nam quis</p>
+                                    <p class="text-center">Vérifier l'Etat d'une Voiture. En Insérant son Prix dans le Marché, un <b>Système Informatique Intelligent </b> Va vous Conseiller Soit d'Acheter ou Laisser cette Voiture Avec Une Explication Détaillé</p>
+                                    <a href="{{url('check')}}" class="stretched-link"></a>
                                 </div>
                             </div>
 
@@ -434,56 +451,46 @@
                             <li class="nav-item col-3" data-aos="zoom-in">
                                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
                                     <i class="ri-gps-line"></i>
-                                    <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
-                                </a>
-                            </li>
-                            <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                                    <i class="ri-body-scan-line"></i>
-                                    <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
-                                </a>
-                            </li>
-                            <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                                    <i class="ri-sun-line"></i>
-                                    <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+                                    <h4 class="d-none d-lg-block">Service</h4>
                                 </a>
                             </li>
                             <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
                                     <i class="ri-store-line"></i>
-                                    <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+                                    <h4 class="d-none d-lg-block">Actualité</h4>
                                 </a>
                             </li>
+                            <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                                    <i class="ri-body-scan-line"></i>
+                                    <h4 class="d-none d-lg-block">Marché</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                                    <i class="ri-sun-line"></i>
+                                    <h4 class="d-none d-lg-block">Statistique</h4>
+                                </a>
+                            </li>
+                            
                         </ul>
 
                         <div class="tab-content" data-aos="fade-up">
                             <div class="tab-pane active show" id="tab-1">
                                 <div class="row">
                                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                                        <h3>Tout les Meilleurs Services et Les Magasins de Vente des accesoires de Voiture .
                                         </h3>
                                         <p class="font-italic">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore
-                                            magna aliqua.
+                                            Vous Trouverez Les Meilleurs Mécaniciens et Magasin de Vente des Piéces Bien Organisés avec Certain Avantages :
                                         </p>
                                         <ul>
-                                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex
-                                                ea commodo consequat.</li>
-                                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in
-                                                reprehenderit in voluptate velit.</li>
-                                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex
-                                                ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                                voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                                                pariatur.</li>
+                                            <li><i class="ri-check-double-line"></i> Filtrer la Recherche Selon la distance et l'Evaluation Des Clients.</li>
+                                            <li><i class="ri-check-double-line"></i> Moteur de Recherche Optimisé Afin d'Améliorer l'Efficacité de Votre Recherche.</li>
+                                            <li><i class="ri-check-double-line"></i> Possibilité D'Evaluation et Enregistrement des Services et Magasins.</li>
                                         </ul>
                                         <p>
-                                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                            dolor in reprehenderit in voluptate
-                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                            cupidatat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum
+                                            Dans cette Plateforme on vous Recommande tout les Meilleurs Services automobiles, Afin de Facilité Gagner le Temps de Recherche et Gain de Confiance Lors de L'Utilisation des ces Services.
                                         </p>
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -495,32 +502,18 @@
                             <div class="tab-pane" id="tab-2">
                                 <div class="row">
                                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                                        <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est
+                                        <h3>L'Actualité des Automobiles de La Presse Algérienne
                                         </h3>
                                         <p>
-                                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                            dolor in reprehenderit in voluptate
-                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                            cupidatat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum
+                                           Vous Trouverez Les Dernières Actualité et News National Concernant le Domaine de Transport et Automobile :
                                         </p>
-                                        <p class="font-italic">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore
-                                            magna aliqua.
-                                        </p>
+                                    
                                         <ul>
-                                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex
-                                                ea commodo consequat.</li>
-                                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in
-                                                reprehenderit in voluptate velit.</li>
-                                            <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum
-                                                asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.
+                                            <li><i class="ri-check-double-line"></i> Vous Trouvez Tout Les Informations de Toutes Les Source Dans Un Lieu en Temps Réel (24h/24h,7j/7j)</li>
+                                            <li><i class="ri-check-double-line"></i> Accéder aux Dernière Actualité de Voiture en Algérie (Accident de Voiture,Etat du Marché,etc...)</li>
+                                            <li><i class="ri-check-double-line"></i> Moteur de Rechrerche Optimisé Afin de Trouvez les Articles de votre Domaine de Recherche .
                                             </li>
-                                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex
-                                                ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                                voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                                                pariatur.</li>
+                                            <li><i class="ri-check-double-line"></i> Utilisation d'un Modèle de <b>l'Intelligence Artificielle</b> Afin de Détécter La Tendence du Domaine Automobiles à Partir des News.</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -532,29 +525,18 @@
                             <div class="tab-pane" id="tab-3">
                                 <div class="row">
                                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                                        <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda
+                                        <h3>Les Informations En Temps Réel des Marchés de Voiture Neuf et Occasion
                                         </h3>
                                         <p>
-                                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                            dolor in reprehenderit in voluptate
-                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                            cupidatat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum
+                                            Vous Trouverez Tout les Informations Nécessaires des Meilleurs Marchés En Algerie Avec Quelques Avantages:
                                         </p>
                                         <ul>
-                                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex
-                                                ea commodo consequat.</li>
-                                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in
-                                                reprehenderit in voluptate velit.</li>
-                                            <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum
-                                                asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.
+                                            <li><i class="ri-check-double-line"></i>Vérifier La Disponibilité Accéder Au Marché le Plus Proche de Vous.</li>
+                                            <li><i class="ri-check-double-line"></i> Accés Aux Informations Détaillés de ces Marchés (GPS, Heures et Jours d'Ouverture)</li>
+                                            <li><i class="ri-check-double-line"></i> Accéder Au Points de Vente des Voitures Neufs les Plus Populaire En Algérie.
                                             </li>
                                         </ul>
-                                        <p class="font-italic">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore
-                                            magna aliqua.
-                                        </p>
+                                        
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2 text-center">
                                         <img src="../../../app-assets/images/features/feat3.png" alt=""
@@ -565,28 +547,15 @@
                             <div class="tab-pane" id="tab-4">
                                 <div class="row">
                                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                                        <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                                        <h3>Statistique En Temps Réel De Meilleur Voiture et du Marché en Algerie</h3>
                                         <p>
-                                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                            dolor in reprehenderit in voluptate
-                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                            cupidatat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum
+                                            Nous Avons Collecter des Données à Partir des Grands Site Algérien De Vente de Voiture. Voici Quelques Statistiques de : 
                                         </p>
-                                        <p class="font-italic">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore
-                                            magna aliqua.
-                                        </p>
+                                        
                                         <ul>
-                                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex
-                                                ea commodo consequat.</li>
-                                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in
-                                                reprehenderit in voluptate velit.</li>
-                                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex
-                                                ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                                voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                                                pariatur.</li>
+                                            <li><i class="ri-check-double-line"></i> Meilleur Modéles et Marques de Voiture Vendus En Algérie.</li>
+                                            <li><i class="ri-check-double-line"></i> Meilleur Caractéristiques de Voiture Vendu.</li>
+                                            <li><i class="ri-check-double-line"></i> Etat du Marché de Voiture En Temps Réel.</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -607,13 +576,11 @@
 
                         <div class="row" data-aos="zoom-out">
                             <div class="col-lg-9 text-center text-lg-start">
-                                <h3>Call To Action</h3>
-                                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                    qui officia deserunt mollit anim id est laborum.</p>
+                                <h3>Contactez Nous</h3>
+                                <p>Pour Plus de Détailles et des Information Concernant Nos Service, Ou Vous Voulez Faire un Partenariat de Marketing Avec Nous. Veuillez Laisser Votre Email et Remplir le Formulaire Suivant.</p>
                             </div>
                             <div class="col-lg-3 cta-btn-container text-center">
-                                <a class="cta-btn align-middle" href="#">Call To Action</a>
+                                <a class="cta-btn align-middle" href="#">Contact</a>
                             </div>
                         </div>
 
